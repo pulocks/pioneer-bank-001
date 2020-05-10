@@ -30,3 +30,34 @@
 .push-amount{
     margin-top: 80px;
 }
+
+@media only screen and (max-width: 480px) {
+    #login-area{
+        padding: 40px;
+    }
+    #login-area h1{
+        font-size: medium;
+    }    
+    .submit-area{
+        padding: 20px;
+    }
+    #error{
+        font-size: medium;
+    }
+    .col-md-4{
+        width: 33%;
+    }
+    .status{
+        padding: 5px 2px;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    #transaction-area h2, h4{
+        font-size: small;
+        text-align: center;
+    }
+    #add-deposit, #add-withdraw{
+        font-size: small;
+    }
+}
